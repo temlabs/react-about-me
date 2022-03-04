@@ -7,9 +7,9 @@ function MainContent(): JSX.Element {
   };
 
   const person = {
-  firstName: "Temi",
-  secondName: "Labinjo"
-  }
+    firstName: "Temi",
+    secondName: "Labinjo",
+  };
 
   const numOne = 3;
   const numTwo = 6;
@@ -20,7 +20,9 @@ function MainContent(): JSX.Element {
     <main>
       <section>
         <h2>About Me</h2>
-        <p>Hi! My name is {person.firstName} {person.secondName}.</p>
+        <p>
+          Hi! My name is {person.firstName} {person.secondName}.
+        </p>
         <p>
           I currently live in {location.city}, {location.country}.
         </p>
