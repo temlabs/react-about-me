@@ -6,16 +6,23 @@ function MainContent(): JSX.Element {
     country: "Malaysia",
   };
 
+  const person = {
+    firstName: "Temi",
+    secondName: "Labinjo",
+  };
+
   const numOne = 3;
   const numTwo = 6;
 
-  const threeFavouriteFoods = ["Chocolate", "Noodles", "Pizza"];
+  const threeFavouriteFoods = ["Chocolate", "Ice-cream", "Pizza"];
 
   return (
     <main>
       <section>
         <h2>About Me</h2>
-        <p>Hi! My name is Nichard Rg.</p>
+        <p>
+          Hi! My name is {person.firstName} {person.secondName}.
+        </p>
         <p>
           I currently live in {location.city}, {location.country}.
         </p>
